@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:cardCornerRadius="1000dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="200dp"
+            android:scaleType="centerCrop"
+            android:layout_height="200dp"
+            android:src="@drawable/photo" />
+    </androidx.cardview.widget.CardView>
+
+     <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="30dp"
+         android:layout_gravity="center"
+         app:cardCornerRadius="10dp"
+         android:outlineSpotShadowColor="@color/design_default_color_primary"
+         android:outlineProvider="paddedBounds">
+
+         <com.google.android.material.textview.MaterialTextView
+             android:drawableStart="@drawable/baseline_person_24"
+             android:drawablePadding="15dp"
+             android:padding="10dp"
+             android:layout_width="300dp"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:text="Shubham Maurya" />
+
+     </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+    <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp"
+        android:outlineSpotShadowColor="@color/design_default_color_primary"
+        android:outlineProvider="paddedBounds">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:drawableStart="@drawable/baseline_call_24"
+            android:drawablePadding="15dp"
+            android:padding="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="9118601993" />
+
+    </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+    <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp"
+        android:outlineSpotShadowColor="@color/design_default_color_primary"
+        android:outlineProvider="paddedBounds">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:drawableStart="@drawable/baseline_mail_24"
+            android:drawablePadding="15dp"
+            android:padding="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="shubhammauryask2002@gmail.com" />
+
+    </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+    <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp"
+        android:outlineSpotShadowColor="@color/design_default_color_primary"
+        android:outlineProvider="paddedBounds">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:drawableStart="@drawable/baseline_location_on_24"
+            android:drawablePadding="15dp"
+            android:padding="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="UIET CSJM UNIVERSITY, KANPUR, UP" />
+
+    </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/walletBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="WALLET"
+        app:icon="@drawable/baseline_arrow_forward_ios_24"
+        app:iconGravity="end"/>
+
+</com.google.android.material.circularreveal.CircularRevealLinearLayout>
